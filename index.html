@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <title>GUESS THE NUMBER</title>
-        <link rel="stylesheet" href="./styles.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    </head>
-    <body>
-        <div class="fluid-container">
-            <h1 class="jumbotron text-primary text-center">Guess The Number</h1>
-            <p>Guess a number between 1 and 100.</p>
-            <div class="input-group text-center">
-                <input type="number" class="form-control" id="guess">
-                <button class="btn btn-primary" onclick="checkGuess()">Submit</button>
-            </div>
-            <p id="message"></p>
-            <!-- debugging: <p id="number"></p>         -->
-        </div> 
-        <script src="script.js"></script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <title>GUESS THE NUMBER</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Guess The Number</h1>
+      <h2>Guess a number between 1 and 100.</h2>
+      <div class="input-group text-center">
+        <input type="number" class="form-control" id="guess" />
+        <button class="btn btn-primary" onclick="checkGuess()">Submit</button>
+      </div>
+      <p id="message"></p>
+      <!-- debugging: <p id="number"></p>         -->
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
